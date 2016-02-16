@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+        <meta charset="utf-8">
+        <title>Anagram Tester</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="jumbotron">
+                <h1>Input Some words and find out if they're anagrams.</h1>
+                <p>That's pretty much it.</p>
+            </div>
+            <div class="container">
+                <form class="form-group" action="/anagram_results" method="get">
+                    <label for="word">Enter a word:</label>
+                    <input type="text" name="word" id="word">
+                    <br>
+                    <label for="tests">Enter word to test against the first word:</label>
+                    <input type="textarea" name="tests" id="tests">
+                    <br>
+                    <button class="btn-primary btn" type="submit" name="button">Test!</button>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
